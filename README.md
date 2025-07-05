@@ -1,17 +1,17 @@
-# 📚 DictLib
+# DictLib
 
 **DictLib** is a lightweight Dart library that generates brute-force
 permutations of characters, useful for dictionary-based attacks, fuzzing, or
 exhaustive testing.
 
-## 🚀 Features
+## Features
 
 - Customizable character set (`a-z`, `0-9`, or anything else).
 - Supports fixed-length brute-force iteration.
 - Efficient, memory-friendly iterator — no need to store the entire dictionary in memory.
 - Clean Dart idiomatic API (`Iterable<String>`).
 
-## 📦 Installation
+## Installation
 
 Add this to your `pubspec.yaml`:
 
@@ -30,7 +30,7 @@ dependencies:
     path: ./path/to/dictlib
 ```
 
-## 🧑‍💻 Usage
+## Usage
 
 ```dart
 import 'package:dictlib/dictlib.dart';
@@ -46,7 +46,7 @@ void main() {
 ```
 
 
-## ⚙️ API
+## API
 
 ```dart
 DictLib({
